@@ -48,7 +48,6 @@ function App() {
   const addAtividade = async (ativ) => {
     handleAtividadeModal();
     const response = await api.post('atividade', ativ);
-    console.log(response.data);
     setAtividades([ ...atividades, response.data]);
   }
 
