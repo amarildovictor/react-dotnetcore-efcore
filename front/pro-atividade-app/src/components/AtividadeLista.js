@@ -6,9 +6,9 @@ export default function AtividadeLista(props) {
         <div className="mt-3">
           { props.atividades.map(ativ => (
             <Atividade
-              excluirAtividade = {props.excluirAtividade}
               pegarAtividade={props.pegarAtividade}
               ativ = {ativ}
+              handleConfirmModal={props.handleConfirmModal}
             />
           )) }
         </div>
