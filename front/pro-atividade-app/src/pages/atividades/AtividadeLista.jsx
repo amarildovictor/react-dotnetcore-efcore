@@ -1,5 +1,5 @@
 import React from 'react'
-import Atividade from './Atividade';
+import Atividade from './AtividadeItem';
 
 export default function AtividadeLista(props) {
     return (
