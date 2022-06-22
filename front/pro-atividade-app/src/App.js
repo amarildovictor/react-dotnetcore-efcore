@@ -13,6 +13,7 @@ export default function App() {
         <Route path='/' element={<Dashboard />} />
         <Route path='/atividade/lista' element={<Atividade />} />
         <Route path='/cliente/lista' element={<Cliente />} />
+        <Route path='/cliente/detalhe' element={<ClienteForm />} />
         <Route path='/cliente/detalhe/:id' element={<ClienteForm />} />
         <Route element={<PageNotFound />} />
       </Routes>
