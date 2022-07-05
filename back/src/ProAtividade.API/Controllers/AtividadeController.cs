@@ -13,7 +13,6 @@ namespace ProAtividade.API.Controllers
         public AtividadeController(IAtividadeService atividadeService)
         {
             this.AtividadeService = atividadeService;
-
         }
 
         [HttpGet]
